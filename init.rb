@@ -1,3 +1,5 @@
+require File.expand_path('lib/noprint_macro_hook', __dir__)
+
 Redmine::Plugin.register :redmine_noprint_macro do
   name 'Redmine No-Print Macro plugin'
   author 'taikii'
