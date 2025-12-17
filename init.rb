@@ -6,7 +6,7 @@ Redmine::Plugin.register :redmine_noprint_macro do
   description 'Add non-printable area to wiki.'
   version '1.0.1'
   url 'https://github.com/taikii/redmine_noprint_macro'
-  author_url 'https://taikii.net/'
+  author_url 'https://github.com/taikii'
 
   Redmine::WikiFormatting::Macros.register do
     desc "Add non-printable area to wiki. Example:\n\n" +
